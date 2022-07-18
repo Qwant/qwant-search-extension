@@ -1,0 +1,15 @@
+{
+    "extends": ["airbnb"],
+    "parser": "@babel/eslint-parser",
+    "rules": {
+        "import/no-extraneous-dependencies": "off",
+        "arrow-body-style": "off",
+        "import/prefer-default-export": "off",
+        "import/extensions": "off",
+        "max-len":"off",
+        "no-param-reassign": "off",
+        "no-restricted-syntax": "off",
+        "no-await-in-loop": "off"
+
+    }
+}

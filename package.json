@@ -1,0 +1,46 @@
+{
+  "name": "qwant-search-extension",
+  "version": "1.0.0",
+  "description": "Qwant Search Extension",
+  "author": "extensions@qwant.com",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:Qwant/qwant-search-extension.git"
+  },
+  "scripts": {
+    "build": "babel-node tools/bundle.js",
+    "lint": "eslint . --ext .js",
+    "lint-staged": "lint-staged"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/eslint-parser": "^7.17.0",
+    "@babel/node": "^7.14.9",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-proposal-decorators": "^7.14.5",
+    "@babel/plugin-proposal-optional-chaining": "^7.14.5",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/register": "^7.15.3",
+    "babel-eslint": "^10.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "commander": "^6.2.1",
+    "copy-webpack-plugin": "^9.0.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-jsx-a11y": "^6.6.0",
+    "eslint-plugin-react": "^7.30.1",
+    "lint-staged": "^11.1.2",
+    "webpack": "^5.50.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-merge": "^5.8.0",
+    "zip-webpack-plugin": "^4.0.1"
+  },
+  "lint-staged": {
+    "*.{js}": [
+      "eslint --fix"
+    ]
+  }
+}

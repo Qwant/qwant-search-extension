@@ -1,0 +1,28 @@
+{
+  "name": "__MSG_name__",
+  "short_name": "__MSG_short_name__",
+  "author": "Qwant",
+  "default_locale": "en",
+  "description": "__MSG_description__",
+  "icons": {
+    "16": "assets/icons/icon-16.png",
+    "19": "assets/icons/icon-19.png",
+    "38": "assets/icons/icon-38.png",
+    "128": "assets/icons/icon-128.png"
+  },
+  "omnibox": {
+    "keyword": "q"
+  },
+  "content_scripts": [
+    {
+      "run_at": "document_start",
+      "matches": [
+        "https://*.qwant.com/*"
+      ],
+      "css": [
+        "assets/css/no-popin.css"
+      ]
+    }
+  ],
+  "minimum_chrome_version": "79.0"
+}
