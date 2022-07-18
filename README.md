@@ -1,7 +1,7 @@
 &nbsp;
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/1442690/171180389-ad92ff55-0da7-4929-98b0-eff7a67e1765.png" width="300px" alt="Qwant Search Browser Extension" />
+  <img src="https://user-images.githubusercontent.com/1442690/179483645-e83b2f3d-b680-45b7-97c4-9e51e6247b8d.png" width="300px" alt="Qwant Search Browser Extension" />
 </p>
 <h3 align="center">Qwant: The search engine that respects your privacy</h3>
 <p align="center">
