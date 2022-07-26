@@ -10,18 +10,24 @@
     "38": "assets/icons/icon-38.png",
     "128": "assets/icons/icon-128.png"
   },
+  "action": {
+    "default_icon": {
+      "16": "assets/icons/icon-16.png",
+      "19": "assets/icons/icon-19.png",
+      "38": "assets/icons/icon-38.png",
+      "128": "assets/icons/icon-128.png"
+    },
+    "default_title": "__MSG_name__",
+    "default_popup": "pages/popup.html"
+  },
   "omnibox": {
     "keyword": "q"
   },
   "content_scripts": [
     {
       "run_at": "document_start",
-      "matches": [
-        "https://*.qwant.com/*"
-      ],
-      "css": [
-        "assets/css/no-popin.css"
-      ]
+      "matches": ["https://*.qwant.com/*"],
+      "css": ["assets/css/no-popin.css"]
     }
   ],
   "minimum_chrome_version": "79.0"

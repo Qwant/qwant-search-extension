@@ -3,6 +3,12 @@ import path from 'path';
 
 export const APP_ID_FIREFOX = 'qwant-search-ff@qwant.com';
 
+export const ENVS = {
+  DEV: 'dev',
+  BETA: 'beta',
+  RELEASE: 'release',
+};
+
 export const BROWSERS = {
   CHROME: 'chrome',
   FIREFOX_AMO: 'firefox-amo',
