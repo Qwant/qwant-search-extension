@@ -65,6 +65,9 @@ const firefox = async (watch) => {
 };
 
 program
+  .option('--watch', 'Builds in watch mode', false);
+
+program
   .command('chrome')
   .description('Builds extension for chrome browser')
   .action(() => {

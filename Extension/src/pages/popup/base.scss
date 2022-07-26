@@ -1,0 +1,149 @@
+:root {
+    --grey-000: #ffffff;
+    --grey-000-alpha24: #ffffff3d;
+    --grey-000-alpha30: #ffffff4d;
+    --grey-050: #f4f5f6;
+    --grey-100: #e9eaec;
+    --grey-200: #c8cbd0;
+    --grey-300: #a7acb4;
+    --grey-300-alpha20: #a7acb466;
+    --grey-400: #868c98;
+    --grey-500: #676e79;
+    --grey-600: #4b5058;
+    --grey-700: #2f3237;
+    --grey-750: #18191b;
+    --grey-800: #131416;
+    --grey-900: #050506;
+    --grey-900-alpha16: #05050529;
+    --grey-900-alpha20: #05050533;
+    --action-blue-100: #d6e5ff;
+    --action-blue-200: #99beff;
+    --action-blue-200-alpha20: #99beff33;
+    --action-blue-300: #5c97ff;
+    --action-blue-300-alpha20: #5c97ff33;
+    --action-blue-400: #1f70ff;
+    --action-blue-400-alpha20: #1f70ff33;
+    --action-blue-500: #0051e0;
+    --action-blue-600: #003ba3;
+    --action-blue-600-alpha20: #003ba333;
+    --action-blue-700: #002566;
+    --action-blue-link: #1a0dab;
+    --purple-100: #ded6ff;
+    --purple-200: #ac99ff;
+    --purple-300: #7b5cff;
+    --purple-400: #491fff;
+    --purple-500: #9500e0;
+    --purple-600: #6d00a3;
+    --purple-darker: #66177a;
+    --purple-light: #dd99ff;
+    --pink-lighter: #fbd9ef;
+    --pink-light: #f07ecb;
+    --pink-base: #e936ad;
+    --pink-dark: #cd1690;
+    --pink-darker: #5d0a42;
+    --blue-lighter: #d8eafb;
+    --blue-light: #7dbaf1;
+    --blue-base: #3393e9;
+    --blue-dark: #1777cb;
+    --blue-darker: #0f4c82;
+    --cyan-lighter: #daf3f9;
+    --cyan-light: #84d6eb;
+    --cyan-base: #3cbedf;
+    --cyan-dark: #1d94b0;
+    --cyan-darker: #15677d;
+    --green-100: #e0f5eb;
+    --green-200: #b3e6cc;
+    --green-300: #85d6ad;
+    --green-300-alpha20: #85d6ad33;
+    --green-400: #57c78f;
+    --green-500: #38a870;
+    --green-500-alpha20: #38a87033;
+    --green-600: #297a52;
+    --green-700: #194d33;
+    --green-700-alpha48: #194d337a;
+    --yellow-000: #fffffa;
+    --yellow-100: #fffcd6;
+    --yellow-200: #fff899;
+    --yellow-300: #fff35c;
+    --yellow-400: #ffef1f;
+    --yellow-500: #e0d000;
+    --yellow-600: #a39800;
+    --yellow-600-alpha48: #a398007a;
+    --yellow-800: #292600;
+    --orange-100: #ffe8d6;
+    --orange-200: #ffc599;
+    --orange-400: #ff7f1f;
+    --orange-500: #e06000;
+    --orange-600: #a34600;
+    --red-100: #ffd6d7;
+    --red-200: #ff999b;
+    --red-300: #ff5c5f;
+    --red-400: #ff1f23;
+    --red-400-alpha20: #ff1f2333;
+    --red-500: #e00004;
+    --red-600: #a30003;
+    --border: var(--grey-900);
+
+    --spacing-xxxs: 2px;
+    --spacing-xxs: 4px;
+    --spacing-xs: 8px;
+    --spacing-s: 12px;
+    --spacing-m: 16px;
+    --spacing-l: 20px;
+    --spacing-xl: 24px;
+    --spacing-xl-2: 32px;
+    --spacing-xxl-3: 40px;
+    --spacing-xxl-4: 48px;
+    --spacing-xxl-5: 56px;
+    --spacing-xxl-6: 64px;
+    --spacing-xxl-7: 80px;
+    --spacing-xxl-8: 96px;
+}
+
+
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.25;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+ul,
+ol {
+    padding: 0;
+    list-style: none;
+}
+
+/* Remove default border and background */
+
+button {
+    padding: 0;
+    margin: 0;
+    color: inherit;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}

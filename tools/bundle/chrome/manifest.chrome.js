@@ -1,5 +1,5 @@
 export const chromeManifest = {
-  manifest_version: 3,
+  manifest_version: 2,
   chrome_settings_overrides: {
     search_provider: {
       name: 'Qwant',
