@@ -1,11 +1,11 @@
 {
   "name": {
-    "message": "Qwant Search"
+    "message": "Qwant - The search engine that doesn't know anything about you"
   },
   "short_name": {
     "message": "Qwant"
   },
   "description": {
-    "message": "Qwant - Le moteur de recherche qui ne sait rien sur vous"
+    "message": "Définit qwant.com comme moteur de recherche par défaut"
   }
 }
