@@ -9,8 +9,8 @@ const bundleChrome = (watch) => {
   return bundleRunner(webpackConfig, watch);
 };
 
-const bundleFirefoxAmo = (watch) => {
-  const webpackConfig = getWebpackConfig(BROWSERS.FIREFOX_AMO);
+const bundleFirefox = (watch) => {
+  const webpackConfig = getWebpackConfig(BROWSERS.FIREFOX);
   return bundleRunner(webpackConfig, watch);
 };
 
@@ -26,7 +26,7 @@ const bundleOpera = () => {
 
 const plan = [
   bundleChrome,
-  bundleFirefoxAmo,
+  bundleFirefox,
   bundleEdge,
   bundleOpera,
 ];
@@ -57,7 +57,7 @@ const chrome = async (watch) => {
 
 const firefox = async (watch) => {
   try {
-    await bundleFirefoxAmo(watch);
+    await bundleFirefox(watch);
   } catch (e) {
     console.error(e);
     process.exit(1);

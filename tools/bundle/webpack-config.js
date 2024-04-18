@@ -12,7 +12,7 @@ export const getWebpackConfig = (browser) => {
     case BROWSERS.CHROME: {
       return genChromeConfig(browserConf);
     }
-    case BROWSERS.FIREFOX_AMO: {
+    case BROWSERS.FIREFOX: {
       return genFirefoxConfig(browserConf);
     }
     case BROWSERS.OPERA: {
