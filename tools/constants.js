@@ -1,11 +1,11 @@
 /* eslint-disable max-len */
 import path from 'path';
 
-export const APP_ID_FIREFOX = 'qwant-search-ff@qwant.com';
+export const APP_ID_FIREFOX = 'qwant-search-firefox@qwant.com';
 
 export const BROWSERS = {
   CHROME: 'chrome',
-  FIREFOX_AMO: 'firefox-amo',
+  FIREFOX: 'firefox',
   OPERA: 'opera',
   EDGE: 'edge',
 };
@@ -15,9 +15,9 @@ export const BROWSERS_CONF = {
     browser: BROWSERS.CHROME,
     buildDir: BROWSERS.CHROME,
   },
-  [BROWSERS.FIREFOX_AMO]: {
-    browser: BROWSERS.FIREFOX_AMO,
-    buildDir: BROWSERS.FIREFOX_AMO,
+  [BROWSERS.FIREFOX]: {
+    browser: BROWSERS.FIREFOX,
+    buildDir: BROWSERS.FIREFOX,
   },
   [BROWSERS.OPERA]: {
     browser: BROWSERS.OPERA,

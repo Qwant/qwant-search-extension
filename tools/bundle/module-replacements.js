@@ -26,7 +26,7 @@ export const getModuleReplacements = (browserConfig) => {
   const browserModuleReplacement = new NormalModuleReplacementPlugin(browsersRegexp, (resource) => {
     const from = resource.request;
     if (browserConfig.browser === BROWSERS.FIREFOX_STANDALONE
-                || browserConfig.browser === BROWSERS.FIREFOX_AMO) {
+                || browserConfig.browser === BROWSERS.FIREFOX) {
       resource.request = resource.request.replace(browsersRegexp, '$1firefox$2');
     } else {
       resource.request = resource.request.replace(browsersRegexp, '$1chrome$2');
