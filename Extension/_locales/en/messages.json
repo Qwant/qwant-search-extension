@@ -1,11 +1,11 @@
 {
   "name": {
-    "message": "Qwant Search"
+    "message": "Qwant - The search engine that values you as a user, not as a product"
   },
   "short_name": {
     "message": "Qwant"
   },
   "description": {
-    "message": "Sets qwant.com as your default search engine"
+    "message": "Qwant becomes your default search engine ! Start your new search experience now using Qwant's artificial intelligence. Made in Europe."
   }
 }
