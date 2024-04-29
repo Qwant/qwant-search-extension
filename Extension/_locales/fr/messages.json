@@ -1,11 +1,11 @@
 {
   "name": {
-    "message": "Qwant - Le moteur de recherche qui ne sait rien sur vous"
+    "message": "Qwant - Le moteur de recherche dont vous êtes l'utilisateur, pas le produit"
   },
   "short_name": {
     "message": "Qwant"
   },
   "description": {
-    "message": "Définit qwant.com comme moteur de recherche par défaut"
+    "message": "Qwant devient votre moteur de recherche par défaut ! Démarrez dès maintenant votre nouvelle expérience de recherche en utilisant l’intelligence artificielle de Qwant. Développé et hébergé en Europe."
   }
 }
