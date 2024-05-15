@@ -116,7 +116,7 @@ yarn lint
 
 | Browser                 | Version |
 | ----------------------- | :-----: |
-| Chromium Based Browsers |   79    |
+| Chromium Based Browsers |   88    |
 | Firefox                 |   78    |
 | Edge                    |   79    |
 

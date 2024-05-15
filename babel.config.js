@@ -3,7 +3,7 @@ module.exports = (api) => {
   return {
     presets: [['@babel/preset-env', {
       targets: {
-        chrome: '79',
+        chrome: '88',
         firefox: '78',
         opera: '66',
       },

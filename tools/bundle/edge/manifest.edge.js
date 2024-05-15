@@ -1,5 +1,5 @@
 export const edgeManifest = {
-  manifest_version: 2,
+  manifest_version: 3,
   chrome_settings_overrides: {
     search_provider: {
       name: 'Qwant',
