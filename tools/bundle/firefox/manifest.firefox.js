@@ -1,7 +1,7 @@
 import { APP_ID_FIREFOX } from '../../constants';
 
 export const firefoxManifest = {
-  manifest_version: 2,
+  manifest_version: 3,
   browser_specific_settings: {
     gecko: {
       id: APP_ID_FIREFOX,
