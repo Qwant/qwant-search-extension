@@ -1,8 +1,3 @@
-&nbsp;
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/1442690/179483645-e83b2f3d-b680-45b7-97c4-9e51e6247b8d.png" width="300px" alt="Qwant Search Browser Extension" />
-</p>
 <h3 align="center">Qwant - The search engine that values you as a user, not as a product</h3>
 <p align="center">
  Designed and based in France, Qwant is the first European search engine, both efficient and ethical, that protects the freedoms of its users and ensures the preservation of the digital ecosystem. 
