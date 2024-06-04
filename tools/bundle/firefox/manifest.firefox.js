@@ -12,8 +12,8 @@ export const firefoxManifest = {
     search_provider: {
       name: 'Qwant',
       keyword: 'qwant.com',
-      search_url: 'https://www.qwant.com/?q={searchTerms}&client=plgn-firefox-sb',
-      favicon_url: 'https://www.qwant.com/favicon.ico',
+      search_url: 'https://www.qwant.com/?q={searchTerms}&client=ext-firefox-sb', // overrided by brz-moz if other value or additional parameter
+      favicon_url: '/assets/icons/favicon.ico',
       suggest_url: 'https://api.qwant.com/api/suggest/?q={searchTerms}&client=opensearch',
       encoding: 'UTF-8',
       is_default: true,
