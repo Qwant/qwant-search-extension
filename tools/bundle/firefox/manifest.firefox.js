@@ -19,4 +19,7 @@ export const firefoxManifest = {
       is_default: true,
     },
   },
+  chrome_url_overrides: {
+    newtab: "/pages/newtab.html"
+  }
 };

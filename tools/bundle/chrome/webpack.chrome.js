@@ -6,6 +6,7 @@ import path from 'path';
 import { genCommonConfig } from '../webpack.common';
 import { chromeManifest } from './manifest.chrome';
 import { updateManifestBuffer } from '../../helpers';
+import { getNewtabPlugin } from '../webpack-config';
 
 export const genChromeConfig = (browserConfig) => {
   const commonConfig = genCommonConfig(browserConfig);
@@ -24,6 +25,7 @@ export const genChromeConfig = (browserConfig) => {
           },
         ],
       }),
+      getNewtabPlugin(browserConfig),
       new ZipWebpackPlugin({
         path: '../',
         filename: `${browserConfig.browser}.zip`,

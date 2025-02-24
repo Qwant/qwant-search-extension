@@ -10,5 +10,5 @@ export const chromeManifest = {
       encoding: 'UTF-8',
       is_default: true,
     },
-  },
+  }
 };

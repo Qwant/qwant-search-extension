@@ -6,6 +6,7 @@ import path from 'path';
 import { genCommonConfig } from '../webpack.common';
 import { edgeManifest } from './manifest.edge';
 import { updateManifestBuffer } from '../../helpers';
+import { getNewtabPlugin } from '../webpack-config';
 
 export const genEdgeConfig = (browserConfig) => {
   const commonConfig = genCommonConfig(browserConfig);
@@ -24,6 +25,7 @@ export const genEdgeConfig = (browserConfig) => {
           },
         ],
       }),
+      getNewtabPlugin(browserConfig),
       new ZipWebpackPlugin({
         path: '../',
         filename: `${browserConfig.browser}.zip`,

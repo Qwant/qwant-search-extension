@@ -19,16 +19,10 @@ const bundleEdge = () => {
   return bundleRunner(webpackConfig);
 };
 
-const bundleOpera = () => {
-  const webpackConfig = getWebpackConfig(BROWSERS.OPERA);
-  return bundleRunner(webpackConfig);
-};
-
 const plan = [
   bundleChrome,
   bundleFirefox,
   bundleEdge,
-  bundleOpera,
 ];
 
 const runBuild = async (tasks) => {

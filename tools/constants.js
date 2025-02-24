@@ -6,7 +6,6 @@ export const APP_ID_FIREFOX = 'qwant-search-firefox@qwant.com';
 export const BROWSERS = {
   CHROME: 'chrome',
   FIREFOX: 'firefox',
-  OPERA: 'opera',
   EDGE: 'edge',
 };
 
@@ -18,10 +17,6 @@ export const BROWSERS_CONF = {
   [BROWSERS.FIREFOX]: {
     browser: BROWSERS.FIREFOX,
     buildDir: BROWSERS.FIREFOX,
-  },
-  [BROWSERS.OPERA]: {
-    browser: BROWSERS.OPERA,
-    buildDir: BROWSERS.OPERA,
   },
   [BROWSERS.EDGE]: {
     browser: BROWSERS.EDGE,

@@ -86,7 +86,6 @@ This will create a build directory with unpacked extensions for all browsers:
 
 ```
   build/edge
-  build/opera
   build/chrome
   build/firefox
 ```

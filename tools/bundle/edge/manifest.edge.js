@@ -9,6 +9,6 @@ export const edgeManifest = {
       suggest_url: 'https://api.qwant.com/api/suggest/?q={searchTerms}&client=opensearch',
       encoding: 'UTF-8',
       is_default: true,
-    },
-  },
+    }
+  }
 };

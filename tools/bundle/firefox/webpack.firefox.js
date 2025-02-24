@@ -6,6 +6,7 @@ import { merge } from 'webpack-merge';
 import { genCommonConfig } from '../webpack.common';
 import { firefoxManifest } from './manifest.firefox';
 import { updateManifestBuffer } from '../../helpers';
+import { getNewtabPlugin } from '../webpack-config';
 
 export const genFirefoxConfig = (browserConfig) => {
   const commonConfig = genCommonConfig(browserConfig);
@@ -22,6 +23,7 @@ export const genFirefoxConfig = (browserConfig) => {
         },
       ],
     }),
+    getNewtabPlugin(browserConfig),
     new ZipWebpackPlugin({
       path: '../',
       filename: zipFilename,
